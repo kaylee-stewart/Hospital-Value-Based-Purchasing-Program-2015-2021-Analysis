@@ -5,7 +5,9 @@
 
 ## Overview ##
 
-This project analyzes trends within the CMS Hospital Value-Based Purchasing Program (HVBP) between 2015 and 2021. 
+This project analyzes data from the CMS Hospital Value-Based Purchasing Program (HVBP) between 2015 and 2021. To begin, I inspected the data in Excel. Using the COUNTBLANK() function in Excel, I found there to be no missing values. I converted the “Not Avaliable” values in each table to blanks so they would register properly as null values when importing the data. I also removed unwanted columns and renamed columns for ease of querying. 
+
+Next, I created a database called hvbp_project in PostgreSQL and created two tables to import the data into from csv format. See below for this code which was repeated to create the table for the 2021 data.
 
 ```SQL
 CREATE DATABASE hvbp_project; 
