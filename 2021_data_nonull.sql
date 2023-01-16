@@ -1,0 +1,6 @@
+SELECT *
+FROM hvbp_2021 as t
+WHERE t IS NOT NULL
+ORDER BY t."State";
+
+
