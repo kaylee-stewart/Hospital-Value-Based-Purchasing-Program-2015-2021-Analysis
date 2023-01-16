@@ -47,7 +47,11 @@ ORDER BY f."State";
 ```
 
 
-After querying the data, I exported the results of the queries in csv format and uploaded them to Tableau to visualize the data in a dashboard. The link to the dashboard in Tableau Public is below:
+After querying the data, I exported the results of the queries in csv format and uploaded them to Tableau to visualize the data in a dashboard. 
+
+![Screenshot](Screenshot_HVBP.png)
+
+The link to the interactive dashboard in Tableau Public is below:
 
 https://public.tableau.com/views/HVBPAnalysis2015-2021/HVBP2015-2016?:language=en-US&:display_count=n&:origin=viz_share_link
 
